@@ -47,7 +47,7 @@ jobs:
       fail-fast: false
       #max-parallel: 4
       matrix:
-        CONFIG: [modem, qmodem]
+        CONFIG: [modem, qmodem,rooter]
         REPO_INFO:
           - {SOURCE: "padavanonly/immortalwrt-mt798x-6.6", BRANCH: "mt798x-mt799x-6.6-mtwifi"}
 
